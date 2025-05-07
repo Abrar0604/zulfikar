@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zulfikar - Car Emergency System</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/hero-bg.jpg') center/cover no-repeat;
+      color: white;
+      padding: 100px 0;
+    }
+    .cta-button {
+      margin-top: 20px;
+    }
+    .feature-card {
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+    }
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/WhatsApp Image 2025-05-07 at 15.30.49.jpeg" alt="Zulfikar Logo" width="60"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">AI-Powered Car Emergency System</h1>
+      <p class="lead">Monitors your driving, detects emergencies, and alerts help instantly.</p>
+      <a href="contact.html" class="btn btn-success btn-lg cta-button">Request a Demo</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-semibold">Key Features</h2>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="card feature-card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Driver Monitoring</h5>
+              <p class="card-text">Detects attention levels and identifies if the driver is in distress using AI vision.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card feature-card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Medical Alerts</h5>
+              <p class="card-text">Detects unresponsiveness and sends alerts to emergency contacts in real-time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mx-md-auto">
+          <div class="card feature-card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Location Tracking</h5>
+              <p class="card-text">Automatically shares your car’s location with emergency responders when needed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Zulfikar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
